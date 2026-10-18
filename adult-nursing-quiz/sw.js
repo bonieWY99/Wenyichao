@@ -1,4 +1,4 @@
-const CACHE = 'adult-nursing-quiz-v1';
+const CACHE = 'adult-nursing-quiz-v2';
 const APP_FILES = [
   './', './index.html', './practice-data.js', './manifest.webmanifest',
   './icon-180.png', './icon-192.png', './icon-512.png'
