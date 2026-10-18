@@ -1,4 +1,13 @@
 .book-mark{background:#2e6759!important;border-radius:13px;box-shadow:0 4px 0 #d5e2d8}.book-mark svg{width:34px;height:34px}
+.workspace-jump a[aria-selected=true]{outline:3px solid #426d48;outline-offset:3px;box-shadow:0 6px 0 #aabda0}
+.workspace-jump a[aria-selected=false]{opacity:.8}
+.task-page-progress{font-size:1rem;color:#40583b;margin:12px 0 20px;line-height:1.8}
+.phase-page-nav{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;margin-top:28px;padding-top:22px;border-top:1px solid #dce2d1}
+.phase-page-nav button{font:inherit;cursor:pointer;padding:14px 22px;border:2px solid #8da682;background:#eef5e5;color:#314f2f;border-radius:12px;box-shadow:0 4px 0 #d6dfcc}
+.phase-page-nav button:hover{background:#dfecd4}.phase-page-nav button:only-child{margin-left:auto}
+[data-theme=dark] .phase-page-nav button{background:#3b513a;color:#f3e3c6;border-color:#9db78b}
+[data-theme=dark] .workspace-jump a[aria-selected=true]{outline-color:#e6c794;box-shadow:0 6px 0 #0c1a12!important}
+@media(max-width:760px){.phase-page-nav button{flex:1;padding:13px 12px;font-size:1rem}.task-page-progress{font-size:.9rem}}
 .workspace .check-row input[type=checkbox]{width:1.65rem;height:1.65rem;min-width:1.65rem;min-height:1.65rem;flex-shrink:0;margin:0;cursor:pointer;accent-color:#286e50}
 .workspace .check-row label:has(input[type=checkbox]){display:inline-flex;align-items:center;gap:12px;padding:12px 16px;min-height:54px;font-size:1.05rem;border:2px solid #b2c8a6;border-radius:12px;background:#fffef9;cursor:pointer;line-height:1.6}
 .workspace .check-row label:has(input:checked){background:#dfeeda;border-color:#4f8050}
